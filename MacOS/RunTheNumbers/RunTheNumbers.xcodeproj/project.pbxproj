@@ -11,6 +11,9 @@
 		6B42A344272C546B00DD3B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B42A343272C546B00DD3B3A /* ViewController.swift */; };
 		6B42A346272C546C00DD3B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B42A345272C546C00DD3B3A /* Assets.xcassets */; };
 		6B42A349272C546C00DD3B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B42A347272C546C00DD3B3A /* Main.storyboard */; };
+		6B42A356272C5D0700DD3B3A /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B42A354272C5D0700DD3B3A /* OfferCollectionViewCell.swift */; };
+		6B42A357272C5D0700DD3B3A /* OfferCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B42A355272C5D0700DD3B3A /* OfferCollectionViewCell.xib */; };
+		6B42A359272C604900DD3B3A /* AutosizingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B42A358272C604900DD3B3A /* AutosizingTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		6B42A345272C546C00DD3B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B42A348272C546C00DD3B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B42A34A272C546C00DD3B3A /* RunTheNumbers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RunTheNumbers.entitlements; sourceTree = "<group>"; };
+		6B42A354272C5D0700DD3B3A /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
+		6B42A355272C5D0700DD3B3A /* OfferCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCollectionViewCell.xib; sourceTree = "<group>"; };
+		6B42A358272C604900DD3B3A /* AutosizingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutosizingTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 		6B42A351272C599500DD3B3A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6B42A354272C5D0700DD3B3A /* OfferCollectionViewCell.swift */,
+				6B42A355272C5D0700DD3B3A /* OfferCollectionViewCell.xib */,
+				6B42A358272C604900DD3B3A /* AutosizingTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +162,7 @@
 			files = (
 				6B42A346272C546C00DD3B3A /* Assets.xcassets in Resources */,
 				6B42A349272C546C00DD3B3A /* Main.storyboard in Resources */,
+				6B42A357272C5D0700DD3B3A /* OfferCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B42A344272C546B00DD3B3A /* ViewController.swift in Sources */,
+				6B42A356272C5D0700DD3B3A /* OfferCollectionViewCell.swift in Sources */,
+				6B42A359272C604900DD3B3A /* AutosizingTextField.swift in Sources */,
 				6B42A342272C546B00DD3B3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
