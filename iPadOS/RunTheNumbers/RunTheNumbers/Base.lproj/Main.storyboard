@@ -27,7 +27,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="VHa-ii-FbK">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="VHa-ii-FbK" customClass="OfferCollectionViewCell" customModule="RunTheNumbers" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="1112" height="187"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zv5-Xu-AYa">
@@ -83,6 +83,14 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="1112" height="187"/>
+                                        <connections>
+                                            <outlet property="consTextView" destination="ZLg-Yt-Vkl" id="QzB-j6-420"/>
+                                            <outlet property="ideaTextView" destination="ufp-U2-JXh" id="b3Z-a1-d9Y"/>
+                                            <outlet property="numberOfCustomersTextView" destination="1Og-fD-5po" id="dBe-fV-oYr"/>
+                                            <outlet property="priceTextView" destination="6jE-Ts-Dar" id="18E-X3-XCk"/>
+                                            <outlet property="prosTextView" destination="KaM-du-BIP" id="LJE-Gv-Zs6"/>
+                                            <outlet property="stackView" destination="X4o-3y-Q4L" id="t5K-ba-2zx"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -100,7 +108,9 @@
                             <constraint firstItem="YFb-pa-oUW" firstAttribute="bottom" secondItem="d3x-PA-x8z" secondAttribute="bottom" id="oNJ-tF-Hkb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Total Revenue Goal = " id="OZ6-41-F9u"/>
+                    <navigationItem key="navigationItem" title="Total Revenue Goal = " id="OZ6-41-F9u">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="O1h-cf-ogk"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cL0-b4-GCv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
