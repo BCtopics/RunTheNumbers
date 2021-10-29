@@ -53,12 +53,44 @@
 			isa = PBXGroup;
 			children = (
 				6B42A341272C546B00DD3B3A /* AppDelegate.swift */,
-				6B42A343272C546B00DD3B3A /* ViewController.swift */,
+				6B42A353272C59AB00DD3B3A /* ModelControllers */,
+				6B42A352272C599900DD3B3A /* ViewControlelrs */,
+				6B42A351272C599500DD3B3A /* Views */,
+				6B42A350272C598F00DD3B3A /* Models */,
 				6B42A345272C546C00DD3B3A /* Assets.xcassets */,
 				6B42A347272C546C00DD3B3A /* Main.storyboard */,
 				6B42A34A272C546C00DD3B3A /* RunTheNumbers.entitlements */,
 			);
 			path = RunTheNumbers;
+			sourceTree = "<group>";
+		};
+		6B42A350272C598F00DD3B3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B42A351272C599500DD3B3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B42A352272C599900DD3B3A /* ViewControlelrs */ = {
+			isa = PBXGroup;
+			children = (
+				6B42A343272C546B00DD3B3A /* ViewController.swift */,
+			);
+			path = ViewControlelrs;
+			sourceTree = "<group>";
+		};
+		6B42A353272C59AB00DD3B3A /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +309,7 @@
 				DEVELOPMENT_TEAM = 5BYQDG63F6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -304,6 +337,7 @@
 				DEVELOPMENT_TEAM = 5BYQDG63F6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
