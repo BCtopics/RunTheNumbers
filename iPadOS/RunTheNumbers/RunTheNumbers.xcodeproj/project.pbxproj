@@ -15,6 +15,7 @@
 		6BEAC3B5272C986B00F37166 /* OfferCellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEAC3B4272C986B00F37166 /* OfferCellsViewController.swift */; };
 		6BEAC3B7272C99C200F37166 /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEAC3B6272C99C200F37166 /* OfferCollectionViewCell.swift */; };
 		6BEAC3BB272C9F2800F37166 /* AutoInvalidatingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEAC3BA272C9F2800F37166 /* AutoInvalidatingLayout.swift */; };
+		6BEAC3BE272DE36500F37166 /* RunTheNumbers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BEAC3BC272DE36500F37166 /* RunTheNumbers.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6BEAC3B4272C986B00F37166 /* OfferCellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCellsViewController.swift; sourceTree = "<group>"; };
 		6BEAC3B6272C99C200F37166 /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
 		6BEAC3BA272C9F2800F37166 /* AutoInvalidatingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoInvalidatingLayout.swift; sourceTree = "<group>"; };
+		6BEAC3BD272DE36500F37166 /* RunTheNumbers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RunTheNumbers.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				6BEAC3A5272C941E00F37166 /* Assets.xcassets */,
 				6BEAC3A7272C941E00F37166 /* LaunchScreen.storyboard */,
 				6BEAC3AA272C941E00F37166 /* Info.plist */,
+				6BEAC3BC272DE36500F37166 /* RunTheNumbers.xcdatamodeld */,
 			);
 			path = RunTheNumbers;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				6BEAC3B5272C986B00F37166 /* OfferCellsViewController.swift in Sources */,
 				6BEAC3B7272C99C200F37166 /* OfferCollectionViewCell.swift in Sources */,
+				6BEAC3BE272DE36500F37166 /* RunTheNumbers.xcdatamodeld in Sources */,
 				6BEAC39D272C941D00F37166 /* AppDelegate.swift in Sources */,
 				6BEAC3BB272C9F2800F37166 /* AutoInvalidatingLayout.swift in Sources */,
 				6BEAC39F272C941D00F37166 /* SceneDelegate.swift in Sources */,
@@ -400,6 +404,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BEAC3BC272DE36500F37166 /* RunTheNumbers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BEAC3BD272DE36500F37166 /* RunTheNumbers.xcdatamodel */,
+			);
+			currentVersion = 6BEAC3BD272DE36500F37166 /* RunTheNumbers.xcdatamodel */;
+			path = RunTheNumbers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6BEAC391272C941C00F37166 /* Project object */;
 }
